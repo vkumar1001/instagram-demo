@@ -26,6 +26,10 @@ gem 'jbuilder', '~> 2.5'
 #gem devise for authentication 
 
 gem 'devise'
+
+#add bootstrap for css
+gem 'bootstrap', '~> 4.2.1'
+gem 'jquery-rails'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
