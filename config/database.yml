@@ -22,4 +22,13 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  production:
+    <<: *default
+    adapter: postgresql
+    encoding: unicode
+    database: d6b32rstb6dp5a
+    username: lifrmxdvxkwrsp
+    password: db7e772cb1e911bb93fd9fb54fbe92e4b6427d20d841d313d1673165c204fb51
+    host: ec2-107-20-183-142.compute-1.amazonaws.com
+    url: postgres://lifrmxdvxkwrsp:db7e772cb1e911bb93fd9fb54fbe92e4b6427d20d841d313d1673165c204fb51@ec2-107-20-183-142.compute-1.amazonaws.com:5432/d6b32rstb6dp5a
+
